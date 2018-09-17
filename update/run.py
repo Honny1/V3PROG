@@ -1,12 +1,14 @@
 import os
 from tqdm import tqdm
 import mammoth
-
+from html5print import HTMLBeautifier
+import codecs
+#TODO: Add skipping existing files
 START ="<!DOCTYPE HTML><html><head></head><body>"
 END ="</body></html>"
 
 def run():
-    src = "POSt//Source"
+    src = "C:\\xampp\\htdocs\\V3PROG\\POSt\\Source"
     files = []
     src_files = os.listdir(src)
     for file in src_files:
@@ -23,6 +25,15 @@ def run():
             f.close()
             b.write(END.encode('utf8'))
             b.close()
+            cleanHtml(savePhp.replace('Source', "Notes"))
 
-
+def cleanHtml(src):
+    f = codecs.open(src, "r", "utf-8")
+    htmlFile = f.read()
+    htmlClean = HTMLBeautifier.beautify(htmlFile, 4)
+    print(htmlClean)
+    f.close()
+    f = codecs.open(src, "w", "utf-8")
+    f.write(str(htmlClean))
+    f.close()
 run()
