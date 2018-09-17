@@ -1,341 +1,121 @@
-﻿<html>
-	<head>
-		<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-
-		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-		<title>.: The student project - Buchticka.eu  :.</title>
-		<meta property="og:title" content=".: The student project - Buchticka.eu  :." />
-		<meta property="og:type" content="" />
-		<!--<meta property="og:url" content="https://buchticka.eu/PO" />-->
-		<meta property="og:image" content="https://www.buchticka.eu/POSt/background.jpg" />
-		<meta property="og:description" content="" />
-		<style>
-<!--
- /* Font Definitions */
- @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
-@font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
-@font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
-@font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
- /* Style Definitions */
- p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-h1
-	{mso-style-link:"Nadpis 1 Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
-h2
-	{mso-style-link:"Nadpis 2 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:13.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
-h3
-	{mso-style-link:"Nadpis 3 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
-p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
-span.Nadpis2Char
-	{mso-style-name:"Nadpis 2 Char";
-	mso-style-link:"Nadpis 2";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
-span.Nadpis3Char
-	{mso-style-name:"Nadpis 3 Char";
-	mso-style-link:"Nadpis 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
-span.Nadpis1Char
-	{mso-style-name:"Nadpis 1 Char";
-	mso-style-link:"Nadpis 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
-.MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
-.MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
-@page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
-div.WordSection1
-	{page:WordSection1;}
- /* List Definitions */
- ol
-	{margin-bottom:0cm;}
-ul
-	{margin-bottom:0cm;}
--->
-</style>
-
+<!DOCTYPE html>
+<html>
+<head>
+<title>Co je Počítačová síť?</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<meta property="og:title" content=".: The student project - Buchticka.eu  :." />
+<meta property="og:type" content="" />
+<meta property="og:url" content="https://buchticka.eu/" />
+<meta property="og:image" content="https://www.buchticka.eu/background00.jpg" />
+<meta property="og:description" content="This is the best coding team ever! :D" />
+<!-- load MUI -->
+<link href="//cdn.muicss.com/mui-0.9.30/css/mui.min.css" rel="stylesheet" type="text/css" />
+<script src="//cdn.muicss.com/mui-0.9.30/js/mui.min.js"></script>
+    
 </head>
-
-<body lang=CS>
-
-<div class=WordSection1>
-
+<body>
+	<div class="mui-container">
 <h1>Co je Počítačová síť?</h1>
+<ul>
+	<li>Počítačová síť se definuje jako distribuovaný výpočetní systém</li>
+	<li>Počítačová síť je tvořena HW/SW</li>
+	<ul>
+		<li>HW = uzly/hrany</li>
+		<ul>
+			<li>Uzel = server, pracovní stanice, tiskárna, router</li>
+			<ul>
+				<li>zařízení které umí pracovat s daty a procesy</li>
+			</ul>
+			<li>Hrana – opakované, přepínané, kabely</li>
+			<ul>
+				<li>slouží k propojení, propojují uzly</li>
+			</ul>
+			<li>Uzel = aktivní prvek v síti, propojen hranami</li>
+			<li>Vnitřní uzel = slouží k provozu sítì</li>
+			<ul>
+				<li>zajištuje infrastrukturu sítì</li>
+			</ul>
+			<li>Koncový uzel</li>
+			<ul>
+				<li>zařízení s kterým se komunikuje</li>
+			</ul>
+			<li>Server = poskytovatel</li>
+			<ul>
+				<li>poskytuje službu ostatním uzlům</li>
+				<li>poskytuje na požádání</li>
+			</ul>
+			<li>Klient – (požaduje) žádá server o službu</li>
+			<li>Peer – zároveň server i klient</li>
+			<ul>
+				<li>zároveň poskytuje a požaduje služby</li>
+			</ul>
+			<li>Služba = činnost, kterou si koncový uzel není schopný zařídit sám, a proto o tu èinnost žádá jiný koncový uzel.</li>
+		</ul>
+		<li>SW – systémový OS, Firewall, antivir</li>
+		<ul>
+			<li>Organizačení zabezpečení – tvořena správou sítě</li>
+				<ul>
+					<li>uživatelské přístupy (login, přístup k datúm atd …)</li>
+				</ul>
+		</ul>
+	</ul>
+</ul>
 
-<p class=MsoListParagraph style='text-indent:-18.0pt'><b>Počítačová síť se definuje jako distribuovaný výpočetní systém</b>
+<h2>Způsoby fungování sítí</h2>
+<h3>Proudový přenos (streaming)</h3>
+<ul>
+	<li>data jsou předávaná v jednotkách informace.</li>
+	<li>data nejsou sdružováná do velkých balíèkù</li>
+</ul>
+<h3>Blokový přenos</h3>
+<ul>
+	<li>Data jsou rozdìlena na malé bloky</li>
+	<li>Každý blok je přenášen jako celek</li>
+</ul>
+<h2>Spojovaná a nespojovaná komunikace</h2>
+<p>Komunikace = přenos informací dorozumívání</p>
 
-<h2>Počítačová síť je tvoøena HW/SW</h2>
+<table>
+	<thead>
+		<th>Spojovaná</th>
+		<th>Nespojovaná</th>
+	</thead>
+	<tbody>
+		<td>Stavová komunikace: spojení je navázáno X není navázáno</td>
+		<td>Komunikující strany: Navážou spojení</td>
+		<td>Navrhne se trasa přenosu a parametry komunikace</td>
+		<td>Komunikace probíhá proudovým přenosem</td>
+		<td>Při ukončení komunikace se zruší trasa</td>
+	</tbody>
+</table>
 
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'>-HW – uzly/hrany</p>
 
-<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Uzel – server, pracovní stanice, tiskárna, router<br>
-         - zaøízení které umí pracovat s&nbsp;daty a procesy</p>
+Např.: Telefonní hovor
 
-<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Hrana – opakovaè, pøepínaè, kabely<br>
-           - slouží k&nbsp;propojení, propojují uzly</p>
+Zachovává se pořadí informací
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>SW – systémový OS, Firewall, antivir </p>
+Nespojovaná
+ Bloky dat jsou přenášené samostatnì a nezávisle
 
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Organizaèní zabezpeèení – tvoøena správou sítì <br>
-                                             - uživatelské pøístupy (login,
-pøístup k&nbsp;datùm atd…)</p>
+Každý blok mùže dojít jinou cestou a nemusí být zachováno pořadí
 
-<h2><span class=Nadpis2Char>Uzel</span><span class=Nadpis3Char><span
-style='font-size:12.0pt;line-height:107%'> </span></span></h2>
+Nenavazuje se spojení
 
-<p class=MsoListParagraph style='text-indent:-18.0pt'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span> <b>aktivní prvek v&nbsp;síti, propojen hranami</b></p>
+Má vlastní hlavièku – adresa příjemce
 
-<h2>Koncoví uzel </h2>
+Adresu odesolatele
 
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>zaøízení s&nbsp;kterým se komunikuje</p>
+Beze stavová
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><b>server</b>: poskytovatel </p>
+Např.: listovní pošta, email
 
-<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>poskytuje službu ostatním uzlùm</p>
+Spolehlivá komunikace
+ veškerá data jsou potvrzována a kontrolována
 
-<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>poskytuje na požádání</p>
+Nespolehlivá komunikace
+Nic se nekontroluje
 
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><b>klient</b> – (požaduje) žádá server o službu</p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><b>peer</b> – zároveò server i klient</p>
-
-<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>zároveò poskytuje a požaduje služby</p>
-
-<h2><span class=Nadpis2Char>Služba</span> </h2>
-
-<p class=MsoListParagraph style='text-indent:-18.0pt'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span> èinnost, kterou si koncový uzel není schopný zaøídit sám, a proto o tu
-èinnost žádá jiný koncový uzel. </p>
-
-<h2><span class=Nadpis2Char>Vnitøní uzel</span></h2>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>slouží k&nbsp;provozu sítì</p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>zajištuje infrastrukturu sítì</p>
-
-<h1>Zpùsoby fungování sítì</h1>
-
-<h2>Proudový pøenos (streaming)</h2>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>data jsou pøedávaná v&nbsp;jednotkách informace.</p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Data nejsou sdružováná do velkých balíèkù</p>
-
-<h2>Blokový pøenos</h2>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Data jsou rozdìlena na malé bloky</p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Každý blok je pøenášen jako celek</p>
-
-<h1>Spojovaná a nespojovaná komunikace</h1>
-
-<p class=MsoNormal>Komunikace: pøenos informací dorozumívání </p>
-
-<span style='font-size:11.0pt;line-height:107%;font-family:"Calibri",sans-serif'><br
-clear=all style='page-break-before:always'>
-</span>
-
-<p class=MsoNormal>&nbsp;</p>
-
-<h2>Spojovaná</h2>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Stavová komunikace: spojení je navázáno X není navázáno</p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Komunikující strany: Navážou spojení</p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Navrhne se trasa pøenosu a parametry komunikace</p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Komunikace probíhá <b>proudovým pøenosem</b> </p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Pøi ukonèení komunikace se zruší trasa</p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Napø.: Telefonní hovor</p>
-
-<p class=MsoListParagraphCxSpLast style='margin-left:72.0pt;text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><b>Zachovává se poøadí informací </b></p>
-
-<h2>Nespojovaná</h2>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span> Bloky dat jsou pøenášené samostatnì a nezávisle</p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Každý blok mùže dojít jinou cestou a <b>nemusí být zachováno poøadí</b></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Nenavazuje se spojení </p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Má vlastní hlavièku – adresa pøíjemce </p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-left:144.0pt;text-indent:
--18.0pt'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Adresu odesolatele</p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Beze stavová</p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Napø.: listovní pošta, email</p>
-
-<h2>Spolehlivá komunikace </h2>
-
-<p class=MsoListParagraph style='text-indent:-18.0pt'>-<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span> veškerá data jsou potvrzována a kontrolována</p>
-
-<h2>Nespolehlivá komunikace</h2>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Nic se nekontroluje</p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'>-<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span>Pøí ztrátì dat se nic nestane</p>
-
-<p class=MsoNormal style='margin-left:18.0pt'>&nbsp;</p>
-
-</div>
+Pří ztrátì dat se nic nestane
 
 </body>
-
 </html>
