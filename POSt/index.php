@@ -76,7 +76,7 @@ function getFileText($patch) {
 	for ($i = 0; $i < count($pages); $i++) {
 		$info = new SplFileInfo($pages[$i]);
 		$file_type=$info->getExtension();
-		if (in_array($file_type, $filter, true) and $pages[$i] != "./index.php") {
+		if (in_array($file_type, $filter, true) and $pages[$i] != "./index.php" and !startsWith($pages[$i], './Source')) {
 			echo "<center><h3><a href='" . $pages[$i] . "' target='_blank'>" .  getFileText($pages[$i]) . "</a></h3><center><br>";
         }
 	}
