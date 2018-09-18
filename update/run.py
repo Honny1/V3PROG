@@ -1,4 +1,6 @@
 import os
+import shutil
+
 from tqdm import tqdm
 import mammoth
 from html5print import HTMLBeautifier
@@ -40,6 +42,7 @@ def run():
             b.write(END.encode('utf8'))
             b.close()
             cleanHtml(savePhp.replace('Source', "Notes"))
+            copyFile(files[i],files[i].replace('Source', "Download"))
 
 def cleanHtml(src):
     f = codecs.open(src, "r", "utf-8")
@@ -50,4 +53,14 @@ def cleanHtml(src):
     f = codecs.open(src, "w", "utf-8")
     f.write(str(htmlClean))
     f.close()
+
+def copyFile(src, dest):
+    try:
+        os.makedirs(dest)
+    except OSError:
+        if not os.path.isdir(dest):
+            raise
+
+    if os.path.isfile(src):
+        shutil.copy(src, dest)
 run()
