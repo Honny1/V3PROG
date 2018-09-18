@@ -4,8 +4,14 @@ import mammoth
 from html5print import HTMLBeautifier
 import codecs
 
-START ="<!DOCTYPE HTML><html><head></head><body>"
-END ="</body></html>"
+START ="<!DOCTYPE html><html><head><title>Zapis zPOSt</title><meta charset='utf-8'><meta property='og:title' " \
+       "content='Zapis z POSt' /><meta property='og:type' content='website' />" \
+       "<meta property='og:url' content='./'/><meta property='og:image' " \
+       "content='https://buchticka.eu/V3PROG/POSt/background.jpg' /><meta property='og:description' content='Zápis z " \
+       "první hodiny POSt' /><!-- load MUI --><link href='//cdn.muicss.com/mui-0.9.30/css/mui.min.css' " \
+       "rel='stylesheet' type='text/css' /><script " \
+       "src='//cdn.muicss.com/mui-0.9.30/js/mui.min.js'></script></head><body><div class='mui-container'> "
+END ="<div class='paticka' style='text-align: center;'><hr ><p style='text-align: center; font-size: 75%; border:0%; padding:0%'> Copyright &copy; 2018, <a href='https://buchticka.eu'>Buchticka.eu</a> Team by Hony</p></div></div></body></html>"
 
 def run():
     src = ".\\Source"
@@ -13,6 +19,9 @@ def run():
     files = []
     src_files = os.listdir(src)
     src_files_old_files = os.listdir(srcOld)
+    for i in range(len(src_files_old_files)):
+        x=src_files_old_files[i].replace(".php", ".docx")
+        src_files_old_files[i] = x
     for file in src_files:
         if file not in src_files_old_files:
             files.append(os.path.join(src, file))
