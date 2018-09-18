@@ -2,24 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="766f941e-5168-4abf-bd45-c9a9d097fb7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../POSt/Notes/2018-09-10_Co_je_počitačová_síť.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/1) hodina.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/1) hodina_files/colorschememapping.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/1) hodina_files/filelist.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/1) hodina_files/themedata.thmx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/1.hodina_lukynCSS.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/2018-09-10.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/2018-09-10.php.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/2018-09-10.php.htm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/2018-09-10_Co_je_počitačová_síť.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/NEW__2018-09-10.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/NEW__2018-09-10_utf-8.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/test.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/test.php.bak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../POSt/Source/BACKUP/test_______2018-09-10 .php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/update.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/update.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,18 +50,28 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="272" />
+          <entry key="py" value="330" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="272" />
+          <entry key="Python" value="330" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="php" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
     </session>
@@ -90,7 +82,7 @@
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -122,7 +114,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,10 +121,22 @@
               <item name="update" type="b2602c69:ProjectViewProjectNode" />
               <item name="update" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="update" type="b2602c69:ProjectViewProjectNode" />
+              <item name="update" type="462c0819:PsiDirectoryNode" />
+              <item name="POSt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="update" type="b2602c69:ProjectViewProjectNode" />
+              <item name="update" type="462c0819:PsiDirectoryNode" />
+              <item name="POSt" type="462c0819:PsiDirectoryNode" />
+              <item name="Notes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,14 +197,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32889733" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32741934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -220,10 +224,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/POSt/Notes/2018-09-10_Co_je_počitačová_síť.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>

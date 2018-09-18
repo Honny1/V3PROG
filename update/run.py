@@ -3,22 +3,27 @@ from tqdm import tqdm
 import mammoth
 from html5print import HTMLBeautifier
 import codecs
-#TODO: Add skipping existing files
+
 START ="<!DOCTYPE HTML><html><head></head><body>"
 END ="</body></html>"
 
 def run():
-    src = "C:\\xampp\\htdocs\\V3PROG\\POSt\\Source"
+    src = ".\\Source"
+    srcOld = ".\\Notes"
     files = []
     src_files = os.listdir(src)
+    src_files_old_files = os.listdir(srcOld)
     for file in src_files:
-        files.append(os.path.join(src, file))
+        if file not in src_files_old_files:
+            files.append(os.path.join(src, file))
 
     for i in tqdm(range(len(files))):
         if files[i].endswith(".docx"):
             f = open(files[i], 'rb')
+
             savePhp=str(files[i].replace('.docx', ".php"))
             b = open(savePhp.replace('Source', "Notes"), 'wb')
+
             b.write(START.encode('utf8'))
             document = mammoth.convert_to_html(f)
             b.write(document.value.encode('utf8'))
