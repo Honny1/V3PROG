@@ -6,9 +6,9 @@
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta property="og:title" content="POSt Zapisy z hodin" />
   	<meta property="og:type" content="website" />
-  	<meta property="og:url" content="https://www.buchticka.eu/TVY/" />
-  	<meta property="og:image" content="https://www.buchticka.eu/TVY/background.jpg" />
-  	<meta property="og:description" content="Ještě dnes se můžete na učit na TVY s TODA" />
+  	<meta property="og:url" content="https://www.buchticka.eu/POSt/" />
+  	<meta property="og:image" content="https://www.buchticka.eu/POSt/background.jpg" />
+  	<meta property="og:description" content="Ještě dnes se můžete na učit na POSt s TODA" />
     <link rel="icon" href="favicon.png" type="image/x-icon"/>
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <style type="text/css">
@@ -16,11 +16,13 @@
     	background-color: #424242;
     	color: white;
     }
+    
+
 </style>
-    <title>TVY</title>
+    <title>POSt</title>
     </head>
     <body>
-    	<center><h1>TVY Zapisy z hodin</h1><center>
+    	<center><h1>POSt Zapisy z hodin</h1><center>
 <?php
 function scanDirectories($rootDir, $allData=array()) {
    
@@ -54,30 +56,52 @@ function startsWith($haystack, $needle){
 }
 function getFileText($patch) {
 	$string=$patch;
-	
-	if(endsWith($patch, '.htm')){
-		$string="";
- 		$string=$string . basename($patch, ".htm");
-	}elseif(endsWith($patch, '.docx') and startsWith($patch, './Download')){
-		$string="";
+    if(endsWith($patch, '.docx') and startsWith($patch, './Download')){
+		$info = new SplFileInfo($patch);
+        $file_type=$info->getExtension();
+        $string="";
 		$string=$string . "Stáhnout: ";
- 		$string=$string . basename($patch, ".docx");
-		}
-  return $string;
+ 		$string=$string . basename($patch, "." . $file_type);
+	}else{
+        $info = new SplFileInfo($patch);
+        $file_type=$info->getExtension();
+		$string="";
+ 		$string=$string . basename($patch, "." . $file_type);
+	}
+  return str_replace("_","&nbsp;",$string);
 }
 ?>
-
 <?php
+function renderTable($download, $url_download, $notes, $url_notes){
+	echo "<table style='width:100%'>";
+	for ($i = 0; $i < count($download); $i++){
+		echo "<tr><th><center><h3><a href='" . $url_notes[$i] . "' target='_blank'>" .  $notes[$i] . "</a></h3><center></th><th><center><h3><a href='" . $url_download[$i] . "' target='_blank'>".  $download[$i] . "</a></h3><center></th></tr>";
+	}	
+  	echo "</table>";
+}
+
+?>
+<?php
+	$filter = array("php","htm", "html", "docx");
 	$pages = scanDirectories(".");
 	for ($i = 0; $i < count($pages); $i++) {
-		 if($pages[$i]!="./favicon.png" and $pages[$i]!="./index.php" and $pages[$i]!="./background.jpg" and (endsWith($pages[$i], '.htm') or startsWith($pages[$i], './Download'))) {
-    		echo "<center><h3><a href='" . $pages[$i] . "' target='_blank'>" .  getFileText($pages[$i]) . "</a></h3><center><br>";
-    		}
+		$info = new SplFileInfo($pages[$i]);
+		$file_type=$info->getExtension();
+		if (in_array($file_type, $filter, true) and $pages[$i] != "./index.php" and !startsWith($pages[$i], './Source')) {
+			if(startsWith(getFileText($pages[$i]), 'Stáhnout')){
+  				$url_download[] = $pages[$i];
+  				$download[] = getFileText($pages[$i]);
+  			}else{
+  				$url_notes[] = $pages[$i];
+  				$notes[] = getFileText($pages[$i]);
+  			}
+        }
 	}
+	renderTable($download,$url_download,$notes,$url_notes);
 ?>
 
  <div style="text-align: center;">
-   <hr ><p style="text-align: center; font-size: 75%; border:0%; padding:0%"> Copyright &copy; 2018, Hony</p>
+   <hr><p style="text-align: center; font-size: 75%; border:0%; padding:0%"> Copyright &copy; 2018, Hony</p>
    </div>
 
  </body>

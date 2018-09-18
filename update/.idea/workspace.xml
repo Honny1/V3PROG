@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="766f941e-5168-4abf-bd45-c9a9d097fb7a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/Download/2018-09-10_Co_je_počitačová_síť.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/Notes/2018-09-10_Co_je_počitačová_síť.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/Notes/2018-09-10_Co_je_počitačová_síť0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/Notes/2018-09-10_Co_je_počitačová_síť_format_by_app.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/Source/2018-09-10_Co_je_počitačová_síť.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/Source/SCAN_POSt_liche_2018-09-10.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/Source/SCAN_POSt_sude_2018-09-10.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/POSt/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TVY/SCAN_TVY_2018-09-14.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TVY/background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TVY/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TVY/index.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
-    </list>
+    <list default="true" id="766f941e-5168-4abf-bd45-c9a9d097fb7a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,12 +45,13 @@
     <session id="568877123">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -97,8 +81,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="43">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="378">
+              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -140,6 +124,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -152,11 +137,15 @@
               <item name="update" type="462c0819:PsiDirectoryNode" />
               <item name="Notes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="update" type="b2602c69:ProjectViewProjectNode" />
+              <item name="update" type="462c0819:PsiDirectoryNode" />
+              <item name="Source" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -217,23 +206,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1186" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24925596" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24920969" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44354838" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44296578" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32903227" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32889733" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="10" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32889733" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -244,17 +232,18 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/POSt/Notes/2018-09-10_Co_je_počitačová_síť0.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/POSt/Notes/2018-09-10_Co_je_počitačová_síť0.php" />
+    <entry file="file://$PROJECT_DIR$/POSt/Notes/2018-09-10_Co_je_počitačová_síť.php" />
+    <entry file="file://$PROJECT_DIR$/Notes/2018-09-10_Co_je_počitačová_síť.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/POSt/Notes/2018-09-10_Co_je_počitačová_síť.php">
+    <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="378">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -262,19 +251,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Notes/2018-09-10_Co_je_počitačová_síť.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/run.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="43">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

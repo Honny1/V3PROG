@@ -16,6 +16,8 @@
     	background-color: #424242;
     	color: white;
     }
+    
+
 </style>
     <title>POSt</title>
     </head>
@@ -69,7 +71,16 @@ function getFileText($patch) {
   return str_replace("_","&nbsp;",$string);
 }
 ?>
+<?php
+function renderTable($download, $url_download, $notes, $url_notes){
+	echo "<table style='width:100%'>";
+	for ($i = 0; $i < count($download); $i++){
+		echo "<tr><th><center><h3><a href='" . $url_notes[$i] . "' target='_blank'>" .  $notes[$i] . "</a></h3><center></th><th><center><h3><a href='" . $url_download[$i] . "' target='_blank'>".  $download[$i] . "</a></h3><center></th></tr>";
+	}	
+  	echo "</table>";
+}
 
+?>
 <?php
 	$filter = array("php","htm", "html", "docx");
 	$pages = scanDirectories(".");
@@ -77,9 +88,16 @@ function getFileText($patch) {
 		$info = new SplFileInfo($pages[$i]);
 		$file_type=$info->getExtension();
 		if (in_array($file_type, $filter, true) and $pages[$i] != "./index.php" and !startsWith($pages[$i], './Source')) {
-			echo "<center><h3><a href='" . $pages[$i] . "' target='_blank'>" .  getFileText($pages[$i]) . "</a></h3><center><br>";
+			if(startsWith(getFileText($pages[$i]), 'Stáhnout')){
+  				$url_download[] = $pages[$i];
+  				$download[] = getFileText($pages[$i]);
+  			}else{
+  				$url_notes[] = $pages[$i];
+  				$notes[] = getFileText($pages[$i]);
+  			}
         }
 	}
+	renderTable($download,$url_download,$notes,$url_notes);
 ?>
 
  <div style="text-align: center;">
