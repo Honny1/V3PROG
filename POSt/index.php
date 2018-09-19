@@ -97,11 +97,13 @@ function renderTable($download, $url_download, $notes, $url_notes){
   			}
         }
 	}
-	renderTable($download,$url_download,$notes,$url_notes);
+	if ($url_download!=NULL and $url_notes!=NULL and $download!=NULL and $notes!=NULL) {
+		renderTable($download,$url_download,$notes,$url_notes);
+	}
 ?>
 
  <div style="text-align: center;">
-   <hr><p style="text-align: center; font-size: 75%; border:0%; padding:0%"> Copyright &copy; 2018, Hony</p>
+   <hr><p style="text-align: center; font-size: 75%; border:0%; padding:0%"> Copyright &copy; 2018, By Hony</p>
    </div>
 
  </body>

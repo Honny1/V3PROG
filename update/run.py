@@ -5,23 +5,23 @@ from tqdm import tqdm
 import mammoth
 from html5print import HTMLBeautifier
 import codecs
-
+"""
 START ="<!DOCTYPE html><html><head><title>Zapis z TVY</title><meta charset='utf-8'><meta property='og:title' " \
        "content='Zapis z TVY' /><meta property='og:type' content='website' />" \
        "<meta property='og:url' content='./'/><meta property='og:image' " \
-       "content='https://buchticka.eu/V3PROG/TVY/background.jpg' /><meta property='og:description' content='Zápis z " \
-       "hodiny TVY /><!-- load MUI --><link href='//cdn.muicss.com/mui-0.9.30/css/mui.min.css' " \
+       "content='https://buchticka.eu/V3PROG/TVY/background.jpg' /><meta property='og:description'"\
+        "content='Zapis z hodiny TVY' /><link href='//cdn.muicss.com/mui-0.9.30/css/mui.min.css' " \
+       "rel='stylesheet' type='text/css' /><script " \
+       "src='//cdn.muicss.com/mui-0.9.30/js/mui.min.js'></script></head><body><div class='mui-container'> "
+"""
+START ="<!DOCTYPE html><html><head><title>Zapis z POSt</title><meta charset='utf-8'><meta property='og:title' " \
+       "content='Zapis z POSt' /><meta property='og:type' content='website' />" \
+       "<meta property='og:url' content='./'/><meta property='og:image' " \
+       "content='https://buchticka.eu/V3PROG/POSt/background.jpg' /><meta property='og:description' content='Zapis z " \
+       "hodiny POSt' /><link href='//cdn.muicss.com/mui-0.9.30/css/mui.min.css' " \
        "rel='stylesheet' type='text/css' /><script " \
        "src='//cdn.muicss.com/mui-0.9.30/js/mui.min.js'></script></head><body><div class='mui-container'> "
 
-"""START ="<!DOCTYPE html><html><head><title>Zapis z POSt</title><meta charset='utf-8'><meta property='og:title' " \
-       "content='Zapis z POSt' /><meta property='og:type' content='website' />" \
-       "<meta property='og:url' content='./'/><meta property='og:image' " \
-       "content='https://buchticka.eu/V3PROG/POSt/background.jpg' /><meta property='og:description' content='Zápis z " \
-       "hodiny POSt' /><!-- load MUI --><link href='//cdn.muicss.com/mui-0.9.30/css/mui.min.css' " \
-       "rel='stylesheet' type='text/css' /><script " \
-       "src='//cdn.muicss.com/mui-0.9.30/js/mui.min.js'></script></head><body><div class='mui-container'> "
-       """
 END ="<div class='paticka' style='text-align: center;'><hr ><p style='text-align: center; font-size: 75%; border:0%; padding:0%'> Copyright &copy; 2018, <a href='https://buchticka.eu'>Buchticka.eu</a> Team by Hony</p></div></div></body></html>"
 
 def run():

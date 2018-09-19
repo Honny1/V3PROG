@@ -17,5 +17,8 @@
 			<a href="./POSt" style="font-size: 150%; color: white; ">POSt</a>
 		</h2>
 	</center>
+	 <div style="text-align: center;">
+   <hr><p style="text-align: center; font-size: 75%; border:0%; padding:0%"> Copyright &copy; 2018, By Hony</p>
+   </div>
 </body>
 </html>
