@@ -2,14 +2,14 @@
 <html>
     <head>
         <title>
-   Zapis zPOSt
+   Zapis z POSt
         </title>
         <meta charset="utf-8"/>
         <meta content="Zapis z POSt" property="og:title"/>
         <meta content="website" property="og:type"/>
         <meta content="./" property="og:url"/>
-        <meta content="https://buchticka.eu/V3PROG/POSt/background.jpg" property="og:image"/>
-        <meta content="Zápis z první hodiny POSt" property="og:description"/>
+        <meta content="https://buchticka.eu/V3PROG/TVY/background.jpg" property="og:image"/>
+        <meta content="Zápis z hodiny POSt" property="og:description"/>
         <!-- load MUI -->
         <link href="//cdn.muicss.com/mui-0.9.30/css/mui.min.css" rel="stylesheet" type="text/css"/>
         <script src="//cdn.muicss.com/mui-0.9.30/js/mui.min.js">
