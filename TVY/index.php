@@ -1,14 +1,20 @@
 <!DOCTYPE HTML>
 <html>
     <head>
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#424242">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#424242">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#424242">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta property="og:title" content="POSt Zapisy z hodin" />
+    <meta property="og:title" content="TVY Zápisy z hodin" />
   	<meta property="og:type" content="website" />
-  	<meta property="og:url" content="https://www.buchticka.eu/POSt/" />
-  	<meta property="og:image" content="https://www.buchticka.eu/POSt/background.jpg" />
-  	<meta property="og:description" content="Ještě dnes se můžete na učit na POSt s TODA" />
+  	<meta property="og:url" content="https://www.buchticka.eu/V3PROG/" />
+  	<meta property="og:image" content="https://www.buchticka.eu/V3PROG/background.jpg" />
+  	<meta property="og:description" content="Ještě dnes se můžete na učit na TVY s TODA" />
     <link rel="icon" href="favicon.png" type="image/x-icon"/>
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
     <style type="text/css">
@@ -19,10 +25,10 @@
     
 
 </style>
-    <title>POSt</title>
+    <title>TVY - Zápisy z hodin</title>
     </head>
     <body>
-    	<center><h1>POSt Zapisy z hodin</h1><center>
+    	<center><h1>TVY Zápisy z hodin</h1><center>
 <?php
 function scanDirectories($rootDir, $allData=array()) {
    

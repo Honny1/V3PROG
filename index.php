@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>V3PROG - zápisky</title>
+	<!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#424242">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#424242">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#424242">
+    <title>V3PROG - zápisky</title>
 	<link rel="stylesheet" type="text/css" href="./../mui.min.css">
 	<style type="text/css">
     body{
