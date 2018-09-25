@@ -20,7 +20,7 @@
 				<li>Počítačová síť se definuje jako distribuovaný výpočetní systém</li>
 				<li>Počítačová síť je tvořena HW / SW</li>
 				<ul>
-					<li><b>HW</b> = uzly/hrany</li>
+					<li><b>HW</b> = uzly&nbsp;/&nbsp;hrany</li>
 					<ul>
 						<li><b>Uzel</b> = server, pracovní stanice, tiskárna, router</li>
 						<ul>
