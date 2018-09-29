@@ -92,7 +92,6 @@ function renderTable($download, $url_download, $notes, $url_notes){
           </thead>
           <tbody>\n";
 	for ($i = 0; $i < count($download); $i++){
-		//echo '<tr><td style="text-align: center; "><a href="' . $url_notes[$i] . '" target="_blank">' .  $notes[$i] . '</a></td><td style="text-align: center; "><a href="' . $url_download[$i] . '" target="_blank">'.  $download[$i] . '</a></td></tr>';
     echo "<tr>
     <td style='text-align: center; '><a href='" . $url_notes[$i] . "' target='_blank'>" .  $notes[$i] . "</a></td>
     <td style='text-align: center; width: 60px; '><a href='" . $url_download[$i] . "' target='_blank'><img src='download.png' width='30px'></a></td>

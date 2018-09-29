@@ -16,9 +16,9 @@
     </head>
     <body>
         <div class="mui-container">
-            <h1>
+            <h2>
                 Rozdělen&iacute; s&iacute;t&iacute; podle velikosti
-            </h1>
+            </h2>
             <ul>
                 <li>
                     rozhoduj&iacute;c&iacute;m parametrem je dosah s&iacute;tě
@@ -28,11 +28,25 @@
                         BAN (Body area network)
                     </strong>
                     <ul>
-                        <li>rozsah 1 cm</li>
-                        <li>využit&iacute;: zdravotnictv&iacute; &ndash; k měřen&iacute; zdravotn&iacute;ho stavu</li>
-                        <li>jsou to body po těle, kter&eacute; jsou připojeny k centr&aacute;ln&iacute; jednotce (central unit)</li>
-                        <li>bezdr&aacute;tov&aacute; nebo dr&aacute;tov&aacute; komunikace</li>
-                        <li>data jsou př&iacute;mo odes&iacute;l&aacute;na, nebo se ukl&aacute;daj&iacute; a potom se st&aacute;hnou</li>
+                        <li>
+                            <ul>
+                                <li>
+                                    rozsah 1 cm
+                                </li>
+                                <li>
+                                    využit&iacute;: zdravotnictv&iacute; &ndash; k měřen&iacute; zdravotn&iacute;ho stavu
+                                </li>
+                                <li>
+                                    jsou to body po těle, kter&eacute; jsou připojeny k centr&aacute;ln&iacute; jednotce (central unit)
+                                </li>
+                                <li>
+                                    bezdr&aacute;tov&aacute; nebo dr&aacute;tov&aacute; komunikace
+                                </li>
+                                <li>
+                                    data jsou př&iacute;mo odes&iacute;l&aacute;na, nebo se ukl&aacute;daj&iacute; a potom se st&aacute;hnou
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -40,10 +54,22 @@
                         PAN (Personal area network)
                     </strong>
                     <ul>
-                        <li>rozsah v&nbsp;metrech</li>
-                        <li>slouž&iacute; k potřeb&aacute;m jednoho uživatele</li>
-                        <li>př&iacute;klady: kl&aacute;vesnice, my&scaron;, mobil, atd&hellip;</li>
-                        <li>nez&aacute;lež&iacute; na propojen&iacute; </li>
+                        <li>
+                            <ul>
+                                <li>
+                                    rozsah v&nbsp;metrech
+                                </li>
+                                <li>
+                                    slouž&iacute; k potřeb&aacute;m jednoho uživatele
+                                </li>
+                                <li>
+                                    př&iacute;klady: kl&aacute;vesnice, my&scaron;, mobil, atd&hellip;
+                                </li>
+                                <li>
+                                    nez&aacute;lež&iacute; na propojen&iacute;
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -51,13 +77,31 @@
                         LAN (Local area network)
                     </strong>
                     <ul>
-                        <li>rozsah v metrech až kilometrech</li>
-                        <li>př&iacute;klady: m&iacute;stnost, budova, v&iacute;ce budov jedn&eacute; firmy</li>
-                        <li>přenosov&aacute; rychlost 10 mb/s&ndash;100 mb/s</li>
-                        <li>provozovatel ji vlastn&iacute;</li>
-                        <li>charakter uzlů jsou pracovn&iacute; stanice</li>
-                        <li>uzly jsou dostupn&eacute; podle potřeb uživatelů</li>
-                        <li>přenosov&eacute; zpožděn&iacute; je mal&eacute;</li>
+                        <li>
+                            <ul>
+                                <li>
+                                    rozsah v metrech až kilometrech
+                                </li>
+                                <li>
+                                    př&iacute;klady: m&iacute;stnost, budova, v&iacute;ce budov jedn&eacute; firmy
+                                </li>
+                                <li>
+                                    přenosov&aacute; rychlost 10 mb/s&ndash;100 mb/s
+                                </li>
+                                <li>
+                                    provozovatel ji vlastn&iacute;
+                                </li>
+                                <li>
+                                    charakter uzlů jsou pracovn&iacute; stanice
+                                </li>
+                                <li>
+                                    uzly jsou dostupn&eacute; podle potřeb uživatelů
+                                </li>
+                                <li>
+                                    přenosov&eacute; zpožděn&iacute; je mal&eacute;
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -65,7 +109,13 @@
                         MAN (Metropolitan area network)
                     </strong>
                     <ul>
-                        <li>obvykle za př&iacute;stup uživatel&eacute; plat&iacute; provozovatel</li>
+                        <li>
+                            <ul>
+                                <li>
+                                    obvykle za př&iacute;stup uživatel&eacute; plat&iacute; provozovatel
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
                 <li>
@@ -73,40 +123,92 @@
                         WAN (Wide area network)
                     </strong>
                     <ul>
-                        <li>rozlehl&aacute; s&iacute;ť</li>
-                        <li>rozsah s&iacute;tě stovky až tis&iacute;ce kilometrů</li>
-                        <li>st&aacute;t nebo kontinent</li>
-                        <li>provozovatel ji pronaj&iacute;m&aacute;</li>
-                        <li>stanice jsou servery &ndash; jsou trvale dostupn&eacute;</li>
-                        <li>přenosov&eacute; zpožděn&iacute; je velk&eacute;</li>
-                        <li>je to 3 vrstv&aacute; struktura</li>
+                        <li>
+                            <ul>
+                                <li>
+                                    rozlehl&aacute; s&iacute;ť
+                                </li>
+                                <li>
+                                    rozsah s&iacute;tě stovky až tis&iacute;ce kilometrů
+                                </li>
+                                <li>
+                                    st&aacute;t nebo kontinent
+                                </li>
+                                <li>
+                                    provozovatel ji pronaj&iacute;m&aacute;
+                                </li>
+                                <li>
+                                    stanice jsou servery &ndash; jsou trvale dostupn&eacute;
+                                </li>
+                                <li>
+                                    přenosov&eacute; zpožděn&iacute; je velk&eacute;
+                                </li>
+                                <li>
+                                    je to 3 vrstv&aacute; struktura
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
             </ul>
             <ol>
-                <li>č&aacute;st&nbsp;&ndash;&nbsp;p&aacute;teřn&iacute;&nbsp;s&iacute;ť&nbsp;/&nbsp;prvn&iacute;&nbsp;m&iacute;le
+                <li>
+                    č&aacute;st &ndash; p&aacute;teřn&iacute; s&iacute;ť/ prvn&iacute; m&iacute;le
                     <ul>
-                        <li>patř&iacute; poskytovateli služby</li>
-                        <li>propojuje pokryt&eacute; oblasti mezi sebou</li>
-                        <li>můžou to b&yacute;t kabely přes atlantick&yacute; oce&aacute;n</li>
+                        <li>
+                            <ul>
+                                <li>
+                                    <ul>
+                                        <li>
+                                            patř&iacute; poskytovateli služby
+                                        </li>
+                                        <li>
+                                            propojuje pokryt&eacute; oblasti mezi sebou
+                                        </li>
+                                        <li>
+                                            můžou to b&yacute;t kabely přes atlantick&yacute; oce&aacute;n
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
-                <li>č&aacute;st &ndash; středn&iacute; m&iacute;le, přechodov&aacute; oblast</li>
-                <li>č&aacute;st &ndash; posledn&iacute; m&iacute;le&nbsp;/&nbsp;př&iacute;stupov&aacute; s&iacute;ť
-                    <ul>
-                        <li>m&iacute;sta, kde konč&iacute; vlastn&iacute; s&iacute;ť a kde zač&iacute;n&aacute; z&aacute;kazn&iacute;k</li>
-                        <li>přiveden&iacute; s&iacute;tě do domu</li>
-                        <li>př&iacute;klady: kabelovka, telefon atd. ...</li>
-                    </ul>
+                <li>
+                    č&aacute;st &ndash; středn&iacute; m&iacute;le, přechodov&aacute; oblast
+                </li>
+                <li>
+                    č&aacute;st &ndash; posledn&iacute; m&iacute;le/př&iacute;stupov&aacute; s&iacute;ť
                 </li>
             </ol>
             <ul>
                 <li>
-                    <strong>Internet</strong>
+                    m&iacute;sta, kde konč&iacute; vlastn&iacute; s&iacute;ť a kde zač&iacute;n&aacute; z&aacute;kazn&iacute;k
+                </li>
+                <li>
+                    přiveden&iacute; s&iacute;tě do domu
+                </li>
+                <li>
+                    př&iacute;klady: kabelovka, telefon atd. ...
+                </li>
+                <li>
+                    <strong>
+                        Internet
+                    </strong>
                     <ul>
-                        <li>největ&scaron;&iacute; s&iacute;ť, rozsah desetitis&iacute;ce kilometrů, s&iacute;ť s&iacute;t&iacute;</li>
-                        <li>velk&eacute; propojen&iacute; jinak samostatn&yacute;ch s&iacute;t&iacute;</li>
-                        <li>skutečn&aacute; topologie je pro uživatele neviditeln&aacute;</li>
+                        <li>
+                            <ul>
+                                <li>
+                                    největ&scaron;&iacute; s&iacute;ť, rozsah desetitis&iacute;ce kilometrů, s&iacute;ť s&iacute;t&iacute;
+                                </li>
+                                <li>
+                                    velk&eacute; propojen&iacute; jinak samostatn&yacute;ch s&iacute;t&iacute;
+                                </li>
+                                <li>
+                                    skutečn&aacute; topologie je pro uživatele neviditeln&aacute;
+                                </li>
+                            </ul>
+                        </li>
                     </ul>
                 </li>
             </ul>
@@ -156,7 +258,7 @@
                 </li>
                 <li>
                     <strong>
-                        Peer-to-Peer
+                        peer to peer
                     </strong>
                     <ul>
                         <li>
