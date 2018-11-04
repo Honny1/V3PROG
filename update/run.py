@@ -15,9 +15,9 @@ START ="<!DOCTYPE html><html><head><title>Zapis z TVY</title><meta charset='utf-
        "src='//cdn.muicss.com/mui-0.9.30/js/mui.min.js'></script></head><body><div class='mui-container'> "
 """
 START ="<!DOCTYPE html><html><head><title>Zapis z POSt</title><meta charset='utf-8'><meta property='og:title' " \
-       "content='Zapis z POSt' /><meta property='og:type' content='website' />" \
+       "content='OPS' /><meta property='og:type' content='website' />" \
        "<meta property='og:url' content='./'/><meta property='og:image' " \
-       "content='https://buchticka.eu/V3PROG/POSt/background.jpg' /><meta property='og:description' content='Zapis z " \
+       "content='https://buchticka.eu/background.jpg' /><meta property='og:description' content='Zapis z " \
        "hodiny POSt' /><link href='//cdn.muicss.com/mui-0.9.30/css/mui.min.css' " \
        "rel='stylesheet' type='text/css' /><script " \
        "src='//cdn.muicss.com/mui-0.9.30/js/mui.min.js'></script></head><body><div class='mui-container'> "
