@@ -50,7 +50,7 @@ function scanDirectories($rootDir, $allData=array()) {
             }
         }
     }
-    return $allData;
+    return sort($allData);
 }
 ?>
 

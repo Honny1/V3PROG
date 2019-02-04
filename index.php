@@ -27,7 +27,7 @@
 	<center>
 		<h2>
 			<a href="./TVY"  style="font-size: 150%; color: white; ">TVY</a><br>
-			<a href="./POSt" style="font-size: 150%; color: white; ">POSt</a>
+			<!--<a href="./POSt" style="font-size: 150%; color: white; ">POSt</a> SRY not implemented-->
 		</h2>
 	</center>
 	 <div style="text-align: center;">
