@@ -124,7 +124,7 @@ function renderTable($download, $url_download, $notes, $url_notes){
 ?>
 
           <div style="text-align: center;">
-            <hr><p style="text-align: center; font-size: 75%; border:0%; padding:0%"> Copyright &copy; 2018, By Hony & Lukyn [<a href="https://buchticka.eu" style="color: rgba(255, 255, 255, 0.75); ">Buchticka.eu</a>]</p>
+            <hr><p style="text-align: center; font-size: 75%; border:0%; padding:0%"> Copyright &copy; 2018, By Hony & Lukyn</p>
           </div>
         </center>
       </center>
