@@ -75,6 +75,26 @@ function getFileText($patch) {
 	}
   return str_replace("_","&nbsp;",$string);
 }
+function insertion_Sort($my_array)
+{
+	for($i=0;$i<count($my_array);$i++){
+		$val = $my_array[$i];
+		$j = $i-1;
+        while($j>=0 && isBigger($my_array[$j], $val)){
+			$my_array[$j+1] = $my_array[$j];
+			$j--;
+		}
+		$my_array[$j+1] = $val;
+	}
+return $my_array;
+}
+function isBigger($arrayVal,$val){
+    if((int) filter_var($arrayVal, FILTER_SANITIZE_NUMBER_INT)>(int) filter_var($val, FILTER_SANITIZE_NUMBER_INT)){
+        return true;
+    }else{
+        return false;
+    }
+}
 ?>
 <?php
 function renderTable($download, $url_download, $notes, $url_notes){
@@ -99,13 +119,14 @@ function renderTable($download, $url_download, $notes, $url_notes){
 <?php
 	$filter = array("php","htm", "html", "docx", "doc");
 	$pages = scanDirectories(".");
-	for ($i = 0; $i < count($pages); $i++) {
+    $pages = insertion_Sort($pages);
+    for ($i = 0; $i < count($pages); $i++) {
 		$info = new SplFileInfo($pages[$i]);
 		$file_type=$info->getExtension();
-		if (in_array($file_type, $filter, true) and $pages[$i] != "./index.php" and !startsWith($pages[$i], './Source')) {
-			if(startsWith(getFileText($pages[$i]), 'Stáhnout')){
+		if (in_array($file_type, $filter, true) and $pages[$i] != "./variables.php" and $pages[$i] != "./header.php" and $pages[$i] != "./index.php" and !startsWith($pages[$i], './Source')) {
+			if(startsWith(getFileText($pages[$i]), 'Stáhnout:')){
   				$url_download[] = $pages[$i];
-  				$download[] = str_replace('Stáhnout:', '', getFileText($pages[$i]));
+  				$download[] = str_replace('Stáhnout', '', getFileText($pages[$i]));
   			}else{
   				$url_notes[] = $pages[$i];
   				$notes[] = getFileText($pages[$i]);

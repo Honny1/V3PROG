@@ -97,7 +97,8 @@ function renderTable($download, $url_download, $notes, $url_notes){
 ?>
 <?php
 	$filter = array("php","htm", "html", "docx", "doc");
-	$pages = scanDirectories(".");
+    $pages = scanDirectories(".");
+    echo $pages;
 	for ($i = 0; $i < count($pages); $i++) {
 		$info = new SplFileInfo($pages[$i]);
 		$file_type=$info->getExtension();
