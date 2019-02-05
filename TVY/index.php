@@ -23,13 +23,6 @@ include "./header.php";
         border: none;
       }
     </style>
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-2871796742628923",
-            enable_page_level_ads: true
-        });
-    </script>    
 </head>
 <body style="background-color: transparent; font-family: Trebuchet MS; min-width: 600px">
   <div style="background-color: transparent; text-align: center;" class="mui-container">
@@ -50,7 +43,7 @@ function scanDirectories($rootDir, $allData=array()) {
             }
         }
     }
-    return sort($allData);
+    return $allData;
 }
 ?>
 

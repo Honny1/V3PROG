@@ -9,14 +9,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="#424242">
     <title>V3PROG - zápisky</title>
 	<link rel="stylesheet" type="text/css" href="./../mui.min.css">
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-2871796742628923",
-            enable_page_level_ads: true
-        });
-    </script>
-    <style type="text/css">
+   <style type="text/css">
     body{
     	background-color: #424242;
     	color: white;
