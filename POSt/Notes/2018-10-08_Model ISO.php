@@ -8,7 +8,7 @@
         <meta content="Zapis z POSt" property="og:title">
         <meta content="website" property="og:type">
         <meta content="./" property="og:url">
-        <meta content="https://buchticka.eu/V3PROG/POSt/background.jpg" property="og:image">
+        <meta content="" property="og:image">
         <meta content="Zapis z hodiny POSt" property="og:description">
         <link href="//cdn.muicss.com/mui-0.9.30/css/mui.min.css" rel="stylesheet" type="text/css">
         <script src="//cdn.muicss.com/mui-0.9.30/js/mui.min.js">
@@ -108,11 +108,7 @@
             <div class="paticka" style="text-align: center;">
                 <hr>
                 <p style="text-align: center; font-size: 75%; border:0%; padding:0%">
-                    Copyright &copy; 2018,
-                    <a href="https://buchticka.eu">
-                        Buchticka.eu
-                    </a>
-                    Team by Hony
+                    Copyright &copy; 2018, by Hony
                 </p>
             </div>
         </div>
